@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: red;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Orbit", sans-serif;
+    color: grey;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .top {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  .gnb ul {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+  }
+  
